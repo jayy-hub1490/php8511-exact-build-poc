@@ -1,0 +1,30 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local environment and OS files
+.env
+.DS_Store
+
+# Exploit evidence and generated request/response artifacts
+evidence/
+*-evidence/
+*-evidence-*/
+leak-evidence*/
+rce-evidence*/
+reverse-shell/
+*.raw
+*.bin
+*.pcap
+*.har
+b1-cookie.txt
+b1-cookie.bin
+validated-leak.json
+rejected-leak.json
+rce-result.json
+proof.txt
+
+# Temporary debugging output
+core
+core.*
+gdb*.txt

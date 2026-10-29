@@ -1,0 +1,47 @@
+version: v2
+title: PHP 8.5.11 Execution Diagram
+size: [1080, 2560]
+customFonts:
+  - family: Space Grotesk
+    src: "https://fonts.googleapis.com/css2?family=Space+Grotesk"
+  - family: JetBrains Mono
+    src: "https://fonts.googleapis.com/css2?family=JetBrains+Mono"
+theme:
+  colors:
+    bg: "#07111F"
+    panel: "#0D1B2A"
+    panel2: "#102438"
+    line: "#1B3B4D"
+    text: "#F3F7FC"
+    muted: "#9FB3C8"
+    cyan: "#38D6C4"
+    amber: "#FFB547"
+    violet: "#A78BFA"
+    orange: "#FF8A5B"
+    green: "#6EE7A2"
+    red: "#FF6B7A"
+  textStyles:
+    title:
+      fontFamily: Space Grotesk
+      fontSize: 46
+      color: "$text"
+      bold: true
+      lineHeight: 1.02
+    heading:
+      fontFamily: Space Grotesk
+      fontSize: 19
+      color: "$text"
+      bold: true
+      lineHeight: 1.1
+    body:
+      fontFamily: Space Grotesk
+      fontSize: 14.5
+      color: "$muted"
+      lineHeight: 1.25
+    mono:
+      fontFamily: JetBrains Mono
+      fontSize: 13
+      color: "$muted"
+      lineHeight: 1.3
+pages:
+  - pages/1_execution_flow.page

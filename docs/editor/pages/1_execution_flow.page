@@ -1,0 +1,2848 @@
+pageType: content
+background:
+  type: solid
+  color: $bg
+elements:
+- elementId: shape-001
+  elementType: shape
+  bounds:
+  - 0
+  - 0
+  - 1080
+  - 2560
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#07111F'
+- elementId: line-002
+  elementType: line
+  bounds:
+  - 48
+  - 300
+  - 1
+  - 1880
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 0,1
+  curve: sharp
+  border:
+    style: dash
+    width: 1
+    color: '#102438'
+- elementId: line-003
+  elementType: line
+  bounds:
+  - 540
+  - 300
+  - 1
+  - 1880
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 0,1
+  curve: sharp
+  border:
+    style: dash
+    width: 1
+    color: '#102438'
+- elementId: line-004
+  elementType: line
+  bounds:
+  - 1032
+  - 300
+  - 1
+  - 1880
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 0,1
+  curve: sharp
+  border:
+    style: dash
+    width: 1
+    color: '#102438'
+- elementId: line-005
+  elementType: line
+  bounds:
+  - 48
+  - 300
+  - 984
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#0D2030'
+- elementId: line-006
+  elementType: line
+  bounds:
+  - 48
+  - 652
+  - 984
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#0D2030'
+- elementId: line-007
+  elementType: line
+  bounds:
+  - 48
+  - 1136
+  - 984
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#0D2030'
+- elementId: line-008
+  elementType: line
+  bounds:
+  - 48
+  - 1530
+  - 984
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#0D2030'
+- elementId: line-009
+  elementType: line
+  bounds:
+  - 48
+  - 1926
+  - 984
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#0D2030'
+- elementId: line-010
+  elementType: line
+  bounds:
+  - 48
+  - 2180
+  - 984
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1
+    color: '#0D2030'
+- elementId: icon-011
+  elementType: icon
+  bounds:
+  - 48
+  - 46
+  - 25
+  - 25
+  iconName: fas:diagram-project
+  fill:
+    type: solid
+    color: $cyan
+- elementId: text-012
+  elementType: text
+  bounds:
+  - 86
+  - 47
+  - 690
+  - 22
+  content:
+    text: AUTHORIZED OFFSEC LAB  /  EXECUTION MAP
+    fontSize: 13
+    color: $cyan
+    fontFamily: JetBrains Mono
+    bold: true
+    wrap: false
+- elementId: text-013
+  elementType: text
+  bounds:
+  - 58
+  - 84
+  - 745
+  - 102
+  content:
+    text: 'FROM STALE SESSION
+
+      TO VERIFIED RCE'
+    style: $title
+    wrap: true
+- elementId: text-014
+  elementType: text
+  bounds:
+  - 60
+  - 184
+  - 770
+  - 25
+  content:
+    text: php8511_rce.py  —  fresh disclosure → validated bases → one request → independent proof
+    fontSize: 15
+    color: $muted
+    fontFamily: Space Grotesk
+    wrap: false
+- elementId: line-015
+  elementType: line
+  bounds:
+  - 844
+  - 52
+  - 1
+  - 130
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 0,1
+  curve: sharp
+  border:
+    style: solid
+    width: 2
+    color: '#1B3B4D'
+- elementId: text-016
+  elementType: text
+  bounds:
+  - 882
+  - 72
+  - 110
+  - 66
+  content:
+    text: '15'
+    fontSize: 56
+    color: $text
+    fontFamily: Space Grotesk
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: text-017
+  elementType: text
+  bounds:
+  - 872
+  - 142
+  - 130
+  - 20
+  content:
+    text: CONTROLLED STEPS
+    fontSize: 11
+    color: $muted
+    fontFamily: JetBrains Mono
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: shape-018
+  elementType: shape
+  bounds:
+  - 48
+  - 216
+  - 984
+  - 64
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#0D1B2A'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1
+    color: '#1B3B4D'
+- elementId: shape-019
+  elementType: shape
+  bounds:
+  - 64
+  - 232
+  - 120
+  - 30
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#38D6C4'
+  adjustments:
+  - 14000
+- elementId: text-020
+  elementType: text
+  bounds:
+  - 64
+  - 237
+  - 120
+  - 18
+  content:
+    text: EXACT BUILD
+    fontSize: 11
+    color: '#07111F'
+    fontFamily: JetBrains Mono
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: text-021
+  elementType: text
+  bounds:
+  - 202
+  - 224
+  - 806
+  - 20
+  content:
+    text: PHP 8.5.11 NTS · Apache 2.4.66 Ubuntu · mod_php/prefork · x86-64 · 128 MiB
+    fontSize: 13
+    color: $text
+    fontFamily: JetBrains Mono
+    wrap: false
+- elementId: text-022
+  elementType: text
+  bounds:
+  - 202
+  - 249
+  - 806
+  - 20
+  content:
+    text: Version match alone is insufficient — offsets and heap geometry belong to the exact binary.
+    fontSize: 12.5
+    color: $muted
+    fontFamily: Space Grotesk
+    wrap: false
+- elementId: text-023
+  elementType: text
+  bounds:
+  - 830
+  - 292
+  - 202
+  - 18
+  content:
+    text: FAILURE GATES
+    fontSize: 11
+    color: $red
+    fontFamily: JetBrains Mono
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: icon-024
+  elementType: icon
+  bounds:
+  - 170
+  - 301
+  - 20
+  - 20
+  iconName: fas:server
+  fill:
+    type: solid
+    color: '#38D6C4'
+- elementId: text-025
+  elementType: text
+  bounds:
+  - 202
+  - 300
+  - 570
+  - 24
+  content:
+    text: PHASE 0  /  PREPARE + PIN
+    fontSize: 13
+    color: '#38D6C4'
+    fontFamily: JetBrains Mono
+    bold: true
+    wrap: false
+- elementId: shape-026
+  elementType: shape
+  bounds:
+  - 170
+  - 340
+  - 600
+  - 82
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#0D1B2A'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#1B3B4D'
+- elementId: shape-027
+  elementType: shape
+  bounds:
+  - 170
+  - 352
+  - 5
+  - 58
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#38D6C4'
+- elementId: shape-028
+  elementType: shape
+  bounds:
+  - 170
+  - 438
+  - 600
+  - 82
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#0D1B2A'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#1B3B4D'
+- elementId: shape-029
+  elementType: shape
+  bounds:
+  - 170
+  - 450
+  - 5
+  - 58
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#38D6C4'
+- elementId: shape-030
+  elementType: shape
+  bounds:
+  - 170
+  - 536
+  - 600
+  - 88
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#0D1B2A'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#1B3B4D'
+- elementId: shape-031
+  elementType: shape
+  bounds:
+  - 170
+  - 548
+  - 5
+  - 64
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#38D6C4'
+- elementId: icon-032
+  elementType: icon
+  bounds:
+  - 170
+  - 653
+  - 20
+  - 20
+  iconName: fas:cookie-bite
+  fill:
+    type: solid
+    color: '#FFB547'
+- elementId: text-033
+  elementType: text
+  bounds:
+  - 202
+  - 652
+  - 570
+  - 24
+  content:
+    text: PHASE 1  /  A1 + B1 DISCLOSURE
+    fontSize: 13
+    color: '#FFB547'
+    fontFamily: JetBrains Mono
+    bold: true
+    wrap: false
+- elementId: shape-034
+  elementType: shape
+  bounds:
+  - 170
+  - 692
+  - 600
+  - 88
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#191D26'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#4A3B26'
+- elementId: shape-035
+  elementType: shape
+  bounds:
+  - 170
+  - 704
+  - 5
+  - 64
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFB547'
+- elementId: shape-036
+  elementType: shape
+  bounds:
+  - 170
+  - 796
+  - 600
+  - 96
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#191D26'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#4A3B26'
+- elementId: shape-037
+  elementType: shape
+  bounds:
+  - 170
+  - 808
+  - 5
+  - 72
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFB547'
+- elementId: shape-038
+  elementType: shape
+  bounds:
+  - 170
+  - 908
+  - 600
+  - 96
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#191D26'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#4A3B26'
+- elementId: shape-039
+  elementType: shape
+  bounds:
+  - 170
+  - 920
+  - 5
+  - 72
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFB547'
+- elementId: shape-040
+  elementType: shape
+  bounds:
+  - 170
+  - 1020
+  - 600
+  - 88
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#191D26'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#4A3B26'
+- elementId: shape-041
+  elementType: shape
+  bounds:
+  - 170
+  - 1032
+  - 5
+  - 64
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFB547'
+- elementId: icon-042
+  elementType: icon
+  bounds:
+  - 170
+  - 1137
+  - 20
+  - 20
+  iconName: fas:shield-halved
+  fill:
+    type: solid
+    color: '#A78BFA'
+- elementId: text-043
+  elementType: text
+  bounds:
+  - 202
+  - 1136
+  - 570
+  - 24
+  content:
+    text: PHASE 2  /  VALIDATE BEFORE RCE
+    fontSize: 13
+    color: '#A78BFA'
+    fontFamily: JetBrains Mono
+    bold: true
+    wrap: false
+- elementId: shape-044
+  elementType: shape
+  bounds:
+  - 170
+  - 1176
+  - 600
+  - 90
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#151B2D'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#373258'
+- elementId: shape-045
+  elementType: shape
+  bounds:
+  - 170
+  - 1188
+  - 5
+  - 66
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A78BFA'
+- elementId: shape-046
+  elementType: shape
+  bounds:
+  - 170
+  - 1282
+  - 600
+  - 108
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#151B2D'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#373258'
+- elementId: shape-047
+  elementType: shape
+  bounds:
+  - 170
+  - 1294
+  - 5
+  - 84
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A78BFA'
+- elementId: shape-048
+  elementType: shape
+  bounds:
+  - 170
+  - 1406
+  - 600
+  - 96
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#151B2D'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#373258'
+- elementId: shape-049
+  elementType: shape
+  bounds:
+  - 170
+  - 1418
+  - 5
+  - 72
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A78BFA'
+- elementId: icon-050
+  elementType: icon
+  bounds:
+  - 170
+  - 1531
+  - 20
+  - 20
+  iconName: fas:bolt
+  fill:
+    type: solid
+    color: '#FF8A5B'
+- elementId: text-051
+  elementType: text
+  bounds:
+  - 202
+  - 1530
+  - 570
+  - 24
+  content:
+    text: PHASE 3  /  TRIGGER + EXECUTE
+    fontSize: 13
+    color: '#FF8A5B'
+    fontFamily: JetBrains Mono
+    bold: true
+    wrap: false
+- elementId: shape-052
+  elementType: shape
+  bounds:
+  - 170
+  - 1570
+  - 600
+  - 100
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#211B22'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#53372E'
+- elementId: shape-053
+  elementType: shape
+  bounds:
+  - 170
+  - 1582
+  - 5
+  - 76
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FF8A5B'
+- elementId: shape-054
+  elementType: shape
+  bounds:
+  - 170
+  - 1686
+  - 600
+  - 100
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#211B22'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#53372E'
+- elementId: shape-055
+  elementType: shape
+  bounds:
+  - 170
+  - 1698
+  - 5
+  - 76
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FF8A5B'
+- elementId: shape-056
+  elementType: shape
+  bounds:
+  - 170
+  - 1802
+  - 600
+  - 96
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#211B22'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#53372E'
+- elementId: shape-057
+  elementType: shape
+  bounds:
+  - 170
+  - 1814
+  - 5
+  - 72
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FF8A5B'
+- elementId: icon-058
+  elementType: icon
+  bounds:
+  - 170
+  - 1927
+  - 20
+  - 20
+  iconName: fas:circle-check
+  fill:
+    type: solid
+    color: '#6EE7A2'
+- elementId: text-059
+  elementType: text
+  bounds:
+  - 202
+  - 1926
+  - 570
+  - 24
+  content:
+    text: PHASE 4  /  INDEPENDENT VERIFICATION
+    fontSize: 13
+    color: '#6EE7A2'
+    fontFamily: JetBrains Mono
+    bold: true
+    wrap: false
+- elementId: shape-060
+  elementType: shape
+  bounds:
+  - 170
+  - 1966
+  - 600
+  - 90
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#10231F'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#285140'
+- elementId: shape-061
+  elementType: shape
+  bounds:
+  - 170
+  - 1978
+  - 5
+  - 66
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#6EE7A2'
+- elementId: shape-062
+  elementType: shape
+  bounds:
+  - 170
+  - 2072
+  - 600
+  - 108
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#10231F'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#285140'
+- elementId: shape-063
+  elementType: shape
+  bounds:
+  - 170
+  - 2084
+  - 5
+  - 84
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#6EE7A2'
+- elementId: line-064
+  elementType: line
+  bounds:
+  - 108
+  - 410.0
+  - 4
+  - 38.0
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 0,1
+  curve: sharp
+  border:
+    style: solid
+    width: 2.2
+    color: '#2F6F76'
+  arrow:
+  - null
+  - stealth
+- elementId: line-065
+  elementType: line
+  bounds:
+  - 108
+  - 508.0
+  - 4
+  - 41.0
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 0,1
+  curve: sharp
+  border:
+    style: solid
+    width: 2.2
+    color: '#2F6F76'
+  arrow:
+  - null
+  - stealth
+- elementId: line-066
+  elementType: line
+  bounds:
+  - 108
+  - 609.0
+  - 4
+  - 96.0
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 0,1
+  curve: sharp
+  border:
+    style: solid
+    width: 2.2
+    color: '#2F6F76'
+  arrow:
+  - null
+  - stealth
+- elementId: line-067
+  elementType: line
+  bounds:
+  - 108
+  - 765.0
+  - 4
+  - 48.0
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 0,1
+  curve: sharp
+  border:
+    style: solid
+    width: 2.2
+    color: '#2F6F76'
+  arrow:
+  - null
+  - stealth
+- elementId: line-068
+  elementType: line
+  bounds:
+  - 108
+  - 873.0
+  - 4
+  - 52.0
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 0,1
+  curve: sharp
+  border:
+    style: solid
+    width: 2.2
+    color: '#2F6F76'
+  arrow:
+  - null
+  - stealth
+- elementId: line-069
+  elementType: line
+  bounds:
+  - 108
+  - 985.0
+  - 4
+  - 48.0
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 0,1
+  curve: sharp
+  border:
+    style: solid
+    width: 2.2
+    color: '#2F6F76'
+  arrow:
+  - null
+  - stealth
+- elementId: line-070
+  elementType: line
+  bounds:
+  - 108
+  - 1093.0
+  - 4
+  - 97.0
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 0,1
+  curve: sharp
+  border:
+    style: solid
+    width: 2.2
+    color: '#2F6F76'
+  arrow:
+  - null
+  - stealth
+- elementId: line-071
+  elementType: line
+  bounds:
+  - 108
+  - 1250.0
+  - 4
+  - 55.0
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 0,1
+  curve: sharp
+  border:
+    style: solid
+    width: 2.2
+    color: '#2F6F76'
+  arrow:
+  - null
+  - stealth
+- elementId: line-072
+  elementType: line
+  bounds:
+  - 108
+  - 1365.0
+  - 4
+  - 58.0
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 0,1
+  curve: sharp
+  border:
+    style: solid
+    width: 2.2
+    color: '#2F6F76'
+  arrow:
+  - null
+  - stealth
+- elementId: line-073
+  elementType: line
+  bounds:
+  - 108
+  - 1483.0
+  - 4
+  - 106.0
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 0,1
+  curve: sharp
+  border:
+    style: solid
+    width: 2.2
+    color: '#2F6F76'
+  arrow:
+  - null
+  - stealth
+- elementId: line-074
+  elementType: line
+  bounds:
+  - 108
+  - 1649.0
+  - 4
+  - 56.0
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 0,1
+  curve: sharp
+  border:
+    style: solid
+    width: 2.2
+    color: '#2F6F76'
+  arrow:
+  - null
+  - stealth
+- elementId: line-075
+  elementType: line
+  bounds:
+  - 108
+  - 1765.0
+  - 4
+  - 54.0
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 0,1
+  curve: sharp
+  border:
+    style: solid
+    width: 2.2
+    color: '#2F6F76'
+  arrow:
+  - null
+  - stealth
+- elementId: line-076
+  elementType: line
+  bounds:
+  - 108
+  - 1879.0
+  - 4
+  - 101.0
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 0,1
+  curve: sharp
+  border:
+    style: solid
+    width: 2.2
+    color: '#2F6F76'
+  arrow:
+  - null
+  - stealth
+- elementId: line-077
+  elementType: line
+  bounds:
+  - 108
+  - 2040.0
+  - 4
+  - 55.0
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 0,1
+  curve: sharp
+  border:
+    style: solid
+    width: 2.2
+    color: '#2F6F76'
+  arrow:
+  - null
+  - stealth
+- elementId: line-078
+  elementType: line
+  bounds:
+  - 770
+  - 479.0
+  - 50
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: dash
+    width: 1.6
+    color: '#FF6B7A'
+  arrow:
+  - null
+  - stealth
+- elementId: line-079
+  elementType: line
+  bounds:
+  - 770
+  - 736.0
+  - 50
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: dash
+    width: 1.6
+    color: '#FFB547'
+  arrow:
+  - null
+  - stealth
+- elementId: line-080
+  elementType: line
+  bounds:
+  - 770
+  - 1064.0
+  - 50
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: dash
+    width: 1.6
+    color: '#FF6B7A'
+  arrow:
+  - null
+  - stealth
+- elementId: line-081
+  elementType: line
+  bounds:
+  - 770
+  - 1221.0
+  - 50
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: dash
+    width: 1.6
+    color: '#FF6B7A'
+  arrow:
+  - null
+  - stealth
+- elementId: line-082
+  elementType: line
+  bounds:
+  - 770
+  - 1336.0
+  - 50
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: dash
+    width: 1.6
+    color: '#FF6B7A'
+  arrow:
+  - null
+  - stealth
+- elementId: line-083
+  elementType: line
+  bounds:
+  - 770
+  - 1454.0
+  - 50
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: dash
+    width: 1.6
+    color: '#A78BFA'
+  arrow:
+  - null
+  - stealth
+- elementId: line-084
+  elementType: line
+  bounds:
+  - 770
+  - 2011.0
+  - 50
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: dash
+    width: 1.6
+    color: '#FF6B7A'
+  arrow:
+  - null
+  - stealth
+- elementId: shape-085
+  elementType: shape
+  bounds:
+  - 82
+  - 354.0
+  - 56
+  - 56
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#07111F'
+  border:
+    style: solid
+    width: 2
+    color: '#38D6C4'
+- elementId: text-086
+  elementType: text
+  bounds:
+  - 82
+  - 371.0
+  - 56
+  - 22
+  content:
+    text: '01'
+    fontSize: 15
+    color: '#38D6C4'
+    fontFamily: JetBrains Mono
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: line-087
+  elementType: line
+  bounds:
+  - 138
+  - 381.0
+  - 32
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 2
+    color: '#38D6C4'
+- elementId: text-088
+  elementType: text
+  bounds:
+  - 196
+  - 352
+  - 548
+  - 24
+  content:
+    text: Start + evidence setup
+    style: $heading
+    wrap: false
+- elementId: text-089
+  elementType: text
+  bounds:
+  - 196
+  - 382
+  - 548
+  - 34
+  content:
+    text: 'Set host / port / path and the evidence directory.
+
+      Start a fresh invocation; no addresses are carried over.'
+    style: $body
+    wrap: true
+- elementId: shape-090
+  elementType: shape
+  bounds:
+  - 82
+  - 452.0
+  - 56
+  - 56
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#07111F'
+  border:
+    style: solid
+    width: 2
+    color: '#38D6C4'
+- elementId: text-091
+  elementType: text
+  bounds:
+  - 82
+  - 469.0
+  - 56
+  - 22
+  content:
+    text: '02'
+    fontSize: 15
+    color: '#38D6C4'
+    fontFamily: JetBrains Mono
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: line-092
+  elementType: line
+  bounds:
+  - 138
+  - 479.0
+  - 32
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 2
+    color: '#38D6C4'
+- elementId: text-093
+  elementType: text
+  bounds:
+  - 196
+  - 450
+  - 548
+  - 24
+  content:
+    text: Discover the worker pool
+    style: $heading
+    wrap: false
+- elementId: text-094
+  elementType: text
+  bounds:
+  - 196
+  - 480
+  - 548
+  - 34
+  content:
+    text: 'Probe Apache children and identify reusable holders
+
+      for the selected mod_php worker.'
+    style: $body
+    wrap: true
+- elementId: shape-095
+  elementType: shape
+  bounds:
+  - 82
+  - 553.0
+  - 56
+  - 56
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#07111F'
+  border:
+    style: solid
+    width: 2
+    color: '#38D6C4'
+- elementId: text-096
+  elementType: text
+  bounds:
+  - 82
+  - 570.0
+  - 56
+  - 22
+  content:
+    text: '03'
+    fontSize: 15
+    color: '#38D6C4'
+    fontFamily: JetBrains Mono
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: line-097
+  elementType: line
+  bounds:
+  - 138
+  - 580.0
+  - 32
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 2
+    color: '#38D6C4'
+- elementId: text-098
+  elementType: text
+  bounds:
+  - 196
+  - 548
+  - 548
+  - 24
+  content:
+    text: Scrub, hold + repin
+    style: $heading
+    wrap: false
+- elementId: text-099
+  elementType: text
+  bounds:
+  - 196
+  - 578
+  - 548
+  - 40
+  content:
+    text: 'Clear interference, hold workers in parallel, then
+
+      rebind the chosen child before queuing requests.'
+    style: $body
+    wrap: true
+- elementId: shape-100
+  elementType: shape
+  bounds:
+  - 82
+  - 709.0
+  - 56
+  - 56
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#07111F'
+  border:
+    style: solid
+    width: 2
+    color: '#FFB547'
+- elementId: text-101
+  elementType: text
+  bounds:
+  - 82
+  - 726.0
+  - 56
+  - 22
+  content:
+    text: '04'
+    fontSize: 15
+    color: '#FFB547'
+    fontFamily: JetBrains Mono
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: line-102
+  elementType: line
+  bounds:
+  - 138
+  - 736.0
+  - 32
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 2
+    color: '#FFB547'
+- elementId: text-103
+  elementType: text
+  bounds:
+  - 196
+  - 704
+  - 548
+  - 24
+  content:
+    text: Queue A1 → B1 on one worker
+    style: $heading
+    wrap: false
+- elementId: text-104
+  elementType: text
+  bounds:
+  - 196
+  - 734
+  - 548
+  - 40
+  content:
+    text: 'Queue both requests before releasing the worker.
+
+      Same-child affinity preserves the stale session state.'
+    style: $body
+    wrap: true
+- elementId: shape-105
+  elementType: shape
+  bounds:
+  - 82
+  - 817.0
+  - 56
+  - 56
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#07111F'
+  border:
+    style: solid
+    width: 2
+    color: '#FFB547'
+- elementId: text-106
+  elementType: text
+  bounds:
+  - 82
+  - 834.0
+  - 56
+  - 22
+  content:
+    text: '05'
+    fontSize: 15
+    color: '#FFB547'
+    fontFamily: JetBrains Mono
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: line-107
+  elementType: line
+  bounds:
+  - 138
+  - 844.0
+  - 32
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 2
+    color: '#FFB547'
+- elementId: text-108
+  elementType: text
+  bounds:
+  - 196
+  - 808
+  - 548
+  - 24
+  content:
+    text: A1  /  force calibrated OOM
+    style: $heading
+    wrap: false
+- elementId: text-109
+  elementType: text
+  bounds:
+  - 196
+  - 838
+  - 548
+  - 48
+  content:
+    text: 'Multipart and cleanup pressure force calibrated OOM,
+
+      leaving stale session-ID state in this worker.'
+    style: $body
+    wrap: true
+- elementId: shape-110
+  elementType: shape
+  bounds:
+  - 82
+  - 929.0
+  - 56
+  - 56
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#07111F'
+  border:
+    style: solid
+    width: 2
+    color: '#FFB547'
+- elementId: text-111
+  elementType: text
+  bounds:
+  - 82
+  - 946.0
+  - 56
+  - 22
+  content:
+    text: '06'
+    fontSize: 15
+    color: '#FFB547'
+    fontFamily: JetBrains Mono
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: line-112
+  elementType: line
+  bounds:
+  - 138
+  - 956.0
+  - 32
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 2
+    color: '#FFB547'
+- elementId: text-113
+  elementType: text
+  bounds:
+  - 196
+  - 920
+  - 548
+  - 24
+  content:
+    text: B1  /  reclaim + forge zend_string
+    style: $heading
+    wrap: false
+- elementId: text-114
+  elementType: text
+  bounds:
+  - 196
+  - 950
+  - 548
+  - 48
+  content:
+    text: 'Controlled reclamation installs a forged zend_string
+
+      with an overlarge length field.'
+    style: $body
+    wrap: true
+- elementId: shape-115
+  elementType: shape
+  bounds:
+  - 82
+  - 1037.0
+  - 56
+  - 56
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#07111F'
+  border:
+    style: solid
+    width: 2
+    color: '#FFB547'
+- elementId: text-116
+  elementType: text
+  bounds:
+  - 82
+  - 1054.0
+  - 56
+  - 22
+  content:
+    text: '07'
+    fontSize: 15
+    color: '#FFB547'
+    fontFamily: JetBrains Mono
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: line-117
+  elementType: line
+  bounds:
+  - 138
+  - 1064.0
+  - 32
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 2
+    color: '#FFB547'
+- elementId: text-118
+  elementType: text
+  bounds:
+  - 196
+  - 1032
+  - 548
+  - 24
+  content:
+    text: Disclose adjacent process memory
+    style: $heading
+    wrap: false
+- elementId: text-119
+  elementType: text
+  bounds:
+  - 196
+  - 1062
+  - 548
+  - 40
+  content:
+    text: 'PHP URL-encodes adjacent memory into an overlong
+
+      Set-Cookie: PHPSESSID response.'
+    style: $body
+    wrap: true
+- elementId: shape-120
+  elementType: shape
+  bounds:
+  - 82
+  - 1194.0
+  - 56
+  - 56
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#07111F'
+  border:
+    style: solid
+    width: 2
+    color: '#A78BFA'
+- elementId: text-121
+  elementType: text
+  bounds:
+  - 82
+  - 1211.0
+  - 56
+  - 22
+  content:
+    text: 08
+    fontSize: 15
+    color: '#A78BFA'
+    fontFamily: JetBrains Mono
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: line-122
+  elementType: line
+  bounds:
+  - 138
+  - 1221.0
+  - 32
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 2
+    color: '#A78BFA'
+- elementId: text-123
+  elementType: text
+  bounds:
+  - 196
+  - 1188
+  - 548
+  - 24
+  content:
+    text: Decode cookie + extract pointers
+    style: $heading
+    wrap: false
+- elementId: text-124
+  elementType: text
+  bounds:
+  - 196
+  - 1218
+  - 548
+  - 42
+  content:
+    text: 'URL-decode the disclosure, scan little-endian 64-bit
+
+      values, and count repeated pointer families.'
+    style: $body
+    wrap: true
+- elementId: shape-125
+  elementType: shape
+  bounds:
+  - 82
+  - 1309.0
+  - 56
+  - 56
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#07111F'
+  border:
+    style: solid
+    width: 2
+    color: '#A78BFA'
+- elementId: text-126
+  elementType: text
+  bounds:
+  - 82
+  - 1326.0
+  - 56
+  - 22
+  content:
+    text: 09
+    fontSize: 15
+    color: '#A78BFA'
+    fontFamily: JetBrains Mono
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: line-127
+  elementType: line
+  bounds:
+  - 138
+  - 1336.0
+  - 32
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 2
+    color: '#A78BFA'
+- elementId: text-128
+  elementType: text
+  bounds:
+  - 196
+  - 1294
+  - 548
+  - 24
+  content:
+    text: Validation gate  /  accept or stop
+    style: $heading
+    wrap: false
+- elementId: text-129
+  elementType: text
+  bounds:
+  - 196
+  - 1324
+  - 548
+  - 60
+  content:
+    text: 'Require dominant zval_ptr_dtor evidence, a 2 MiB-aligned
+
+      libphp base, and confirming heap-bucket pointers.'
+    style: $body
+    wrap: true
+- elementId: shape-130
+  elementType: shape
+  bounds:
+  - 82
+  - 1427.0
+  - 56
+  - 56
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#07111F'
+  border:
+    style: solid
+    width: 2
+    color: '#A78BFA'
+- elementId: text-131
+  elementType: text
+  bounds:
+  - 82
+  - 1444.0
+  - 56
+  - 22
+  content:
+    text: '10'
+    fontSize: 15
+    color: '#A78BFA'
+    fontFamily: JetBrains Mono
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: line-132
+  elementType: line
+  bounds:
+  - 138
+  - 1454.0
+  - 32
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 2
+    color: '#A78BFA'
+- elementId: text-133
+  elementType: text
+  bounds:
+  - 196
+  - 1418
+  - 548
+  - 24
+  content:
+    text: Derive fresh runtime addresses
+    style: $heading
+    wrap: false
+- elementId: text-134
+  elementType: text
+  bounds:
+  - 196
+  - 1448
+  - 548
+  - 48
+  content:
+    text: 'Compute libphp, heap, RCE block, pivot, gadgets and
+
+      zif_system from this leak only.'
+    style: $body
+    wrap: true
+- elementId: shape-135
+  elementType: shape
+  bounds:
+  - 82
+  - 1593.0
+  - 56
+  - 56
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#07111F'
+  border:
+    style: solid
+    width: 2
+    color: '#FF8A5B'
+- elementId: text-136
+  elementType: text
+  bounds:
+  - 82
+  - 1610.0
+  - 56
+  - 22
+  content:
+    text: '11'
+    fontSize: 15
+    color: '#FF8A5B'
+    fontFamily: JetBrains Mono
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: line-137
+  elementType: line
+  bounds:
+  - 138
+  - 1620.0
+  - 32
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 2
+    color: '#FF8A5B'
+- elementId: text-138
+  elementType: text
+  bounds:
+  - 196
+  - 1582
+  - 548
+  - 24
+  content:
+    text: Build forged object + libphp-only ROP
+    style: $heading
+    wrap: false
+- elementId: text-139
+  elementType: text
+  bounds:
+  - 196
+  - 1612
+  - 548
+  - 52
+  content:
+    text: 'Place forged handlers, jump_fcontext pivot, ROP chain,
+
+      and the 48-byte command carrier including its NUL.'
+    style: $body
+    wrap: true
+- elementId: shape-140
+  elementType: shape
+  bounds:
+  - 82
+  - 1709.0
+  - 56
+  - 56
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#07111F'
+  border:
+    style: solid
+    width: 2
+    color: '#FF8A5B'
+- elementId: text-141
+  elementType: text
+  bounds:
+  - 82
+  - 1726.0
+  - 56
+  - 22
+  content:
+    text: '12'
+    fontSize: 15
+    color: '#FF8A5B'
+    fontFamily: JetBrains Mono
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: line-142
+  elementType: line
+  bounds:
+  - 138
+  - 1736.0
+  - 32
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 2
+    color: '#FF8A5B'
+- elementId: text-143
+  elementType: text
+  bounds:
+  - 196
+  - 1698
+  - 548
+  - 24
+  content:
+    text: Send one amplified RCE request
+    style: $heading
+    wrap: false
+- elementId: text-144
+  elementType: text
+  bounds:
+  - 196
+  - 1728
+  - 548
+  - 52
+  content:
+    text: 'Multipart/header amplification reaches OOM during
+
+      incomplete HashTable bucket initialization.'
+    style: $body
+    wrap: true
+- elementId: shape-145
+  elementType: shape
+  bounds:
+  - 82
+  - 1823.0
+  - 56
+  - 56
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#07111F'
+  border:
+    style: solid
+    width: 2
+    color: '#FF8A5B'
+- elementId: text-146
+  elementType: text
+  bounds:
+  - 82
+  - 1840.0
+  - 56
+  - 22
+  content:
+    text: '13'
+    fontSize: 15
+    color: '#FF8A5B'
+    fontFamily: JetBrains Mono
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: line-147
+  elementType: line
+  bounds:
+  - 138
+  - 1850.0
+  - 32
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 2
+    color: '#FF8A5B'
+- elementId: text-148
+  elementType: text
+  bounds:
+  - 196
+  - 1814
+  - 548
+  - 24
+  content:
+    text: Cleanup sink → pivot → zif_system
+    style: $heading
+    wrap: false
+- elementId: text-149
+  elementType: text
+  bounds:
+  - 196
+  - 1844
+  - 548
+  - 48
+  content:
+    text: 'Cleanup reaches forged handlers, pivots to the ROP chain,
+
+      and calls zif_system(command).'
+    style: $body
+    wrap: true
+- elementId: shape-150
+  elementType: shape
+  bounds:
+  - 82
+  - 1984.0
+  - 56
+  - 56
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#07111F'
+  border:
+    style: solid
+    width: 2
+    color: '#6EE7A2'
+- elementId: text-151
+  elementType: text
+  bounds:
+  - 82
+  - 2001.0
+  - 56
+  - 22
+  content:
+    text: '14'
+    fontSize: 15
+    color: '#6EE7A2'
+    fontFamily: JetBrains Mono
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: line-152
+  elementType: line
+  bounds:
+  - 138
+  - 2011.0
+  - 32
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 2
+    color: '#6EE7A2'
+- elementId: text-153
+  elementType: text
+  bounds:
+  - 196
+  - 1978
+  - 548
+  - 24
+  content:
+    text: Verify independently with GET /proof.txt
+    style: $heading
+    wrap: false
+- elementId: text-154
+  elementType: text
+  bounds:
+  - 196
+  - 2008
+  - 548
+  - 42
+  content:
+    text: 'Fetch the target’s /proof.txt over HTTP and look for uid=.
+
+      An empty RCE POST response is not proof either way.'
+    style: $body
+    wrap: true
+- elementId: shape-155
+  elementType: shape
+  bounds:
+  - 82
+  - 2099.0
+  - 56
+  - 56
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#07111F'
+  border:
+    style: solid
+    width: 2
+    color: '#6EE7A2'
+- elementId: text-156
+  elementType: text
+  bounds:
+  - 82
+  - 2116.0
+  - 56
+  - 22
+  content:
+    text: '15'
+    fontSize: 15
+    color: '#6EE7A2'
+    fontFamily: JetBrains Mono
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: line-157
+  elementType: line
+  bounds:
+  - 138
+  - 2126.0
+  - 32
+  - 1
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 1,0
+  curve: sharp
+  border:
+    style: solid
+    width: 2
+    color: '#6EE7A2'
+- elementId: text-158
+  elementType: text
+  bounds:
+  - 196
+  - 2084
+  - 548
+  - 24
+  content:
+    text: Report the real outcome
+    style: $heading
+    wrap: false
+- elementId: text-159
+  elementType: text
+  bounds:
+  - 196
+  - 2114
+  - 548
+  - 60
+  content:
+    text: 'VERIFIED only with independent command output.
+
+      Otherwise report DELIVERED_UNVERIFIED, not success.'
+    style: $body
+    wrap: true
+- elementId: shape-160
+  elementType: shape
+  bounds:
+  - 830
+  - 438
+  - 202
+  - 82
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#24151D'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#6B2C3A'
+- elementId: text-161
+  elementType: text
+  bounds:
+  - 846
+  - 448
+  - 170
+  - 17
+  content:
+    text: STOP
+    fontSize: 10.5
+    color: '#FF6B7A'
+    fontFamily: JetBrains Mono
+    bold: true
+    wrap: false
+- elementId: text-162
+  elementType: text
+  bounds:
+  - 846
+  - 472
+  - 170
+  - 42
+  content:
+    text: '0 accepted holders
+
+      Check target / worker discovery'
+    fontSize: 11.5
+    color: $text
+    fontFamily: Space Grotesk
+    lineHeight: 1.22
+    wrap: true
+- elementId: shape-163
+  elementType: shape
+  bounds:
+  - 830
+  - 692
+  - 202
+  - 88
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#102438'
+  adjustments:
+  - 9000
+  border:
+    style: dash
+    width: 1.2
+    color: '#4A3B26'
+- elementId: text-164
+  elementType: text
+  bounds:
+  - 846
+  - 702
+  - 170
+  - 17
+  content:
+    text: AFFINITY LOCK
+    fontSize: 10.5
+    color: '#FFB547'
+    fontFamily: JetBrains Mono
+    bold: true
+    wrap: false
+- elementId: text-165
+  elementType: text
+  bounds:
+  - 846
+  - 726
+  - 170
+  - 48
+  content:
+    text: 'A1 + B1 must reach
+
+      the same mod_php child'
+    fontSize: 11.5
+    color: $muted
+    fontFamily: Space Grotesk
+    lineHeight: 1.22
+    wrap: true
+- elementId: shape-166
+  elementType: shape
+  bounds:
+  - 830
+  - 1020
+  - 202
+  - 88
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#24151D'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#6B2C3A'
+- elementId: text-167
+  elementType: text
+  bounds:
+  - 846
+  - 1030
+  - 170
+  - 17
+  content:
+    text: STOP
+    fontSize: 10.5
+    color: '#FF6B7A'
+    fontFamily: JetBrains Mono
+    bold: true
+    wrap: false
+- elementId: text-168
+  elementType: text
+  bounds:
+  - 846
+  - 1054
+  - 170
+  - 48
+  content:
+    text: 'No cookie or normal 32-byte SID
+
+      Disclosure / profile failed'
+    fontSize: 11.5
+    color: $text
+    fontFamily: Space Grotesk
+    lineHeight: 1.22
+    wrap: true
+- elementId: shape-169
+  elementType: shape
+  bounds:
+  - 830
+  - 1176
+  - 202
+  - 90
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#24151D'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#6B2C3A'
+- elementId: text-170
+  elementType: text
+  bounds:
+  - 846
+  - 1186
+  - 170
+  - 17
+  content:
+    text: STOP
+    fontSize: 10.5
+    color: '#FF6B7A'
+    fontFamily: JetBrains Mono
+    bold: true
+    wrap: false
+- elementId: text-171
+  elementType: text
+  bounds:
+  - 846
+  - 1210
+  - 170
+  - 50
+  content:
+    text: 'No usable pointers
+
+      Reject the disclosure'
+    fontSize: 11.5
+    color: $text
+    fontFamily: Space Grotesk
+    lineHeight: 1.22
+    wrap: true
+- elementId: shape-172
+  elementType: shape
+  bounds:
+  - 830
+  - 1282
+  - 202
+  - 108
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#24151D'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#6B2C3A'
+- elementId: text-173
+  elementType: text
+  bounds:
+  - 846
+  - 1292
+  - 170
+  - 17
+  content:
+    text: STOP
+    fontSize: 10.5
+    color: '#FF6B7A'
+    fontFamily: JetBrains Mono
+    bold: true
+    wrap: false
+- elementId: text-174
+  elementType: text
+  bounds:
+  - 846
+  - 1316
+  - 170
+  - 68
+  content:
+    text: 'Bad module base or weak heap proof
+
+      Do not continue to RCE'
+    fontSize: 11.5
+    color: $text
+    fontFamily: Space Grotesk
+    lineHeight: 1.22
+    wrap: true
+- elementId: shape-175
+  elementType: shape
+  bounds:
+  - 830
+  - 1406
+  - 202
+  - 96
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#102438'
+  adjustments:
+  - 9000
+  border:
+    style: dash
+    width: 1.2
+    color: '#373258'
+- elementId: text-176
+  elementType: text
+  bounds:
+  - 846
+  - 1416
+  - 170
+  - 17
+  content:
+    text: FRESH ONLY
+    fontSize: 10.5
+    color: '#A78BFA'
+    fontFamily: JetBrains Mono
+    bold: true
+    wrap: false
+- elementId: text-177
+  elementType: text
+  bounds:
+  - 846
+  - 1440
+  - 170
+  - 56
+  content:
+    text: 'Never reuse screenshot
+
+      or previous-run addresses'
+    fontSize: 11.5
+    color: $muted
+    fontFamily: Space Grotesk
+    lineHeight: 1.22
+    wrap: true
+- elementId: shape-178
+  elementType: shape
+  bounds:
+  - 830
+  - 1966
+  - 202
+  - 90
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#24151D'
+  adjustments:
+  - 9000
+  border:
+    style: solid
+    width: 1.2
+    color: '#6B2C3A'
+- elementId: text-179
+  elementType: text
+  bounds:
+  - 846
+  - 1976
+  - 170
+  - 17
+  content:
+    text: NO PROOF
+    fontSize: 10.5
+    color: '#FF6B7A'
+    fontFamily: JetBrains Mono
+    bold: true
+    wrap: false
+- elementId: text-180
+  elementType: text
+  bounds:
+  - 846
+  - 2000
+  - 170
+  - 50
+  content:
+    text: 'No uid= after the request
+
+      DELIVERED_UNVERIFIED'
+    fontSize: 11.5
+    color: $text
+    fontFamily: Space Grotesk
+    lineHeight: 1.22
+    wrap: true
+- elementId: shape-183
+  elementType: shape
+  bounds:
+  - 48
+  - 2220
+  - 984
+  - 250
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#0D1B2A'
+  adjustments:
+  - 8000
+  border:
+    style: solid
+    width: 1.2
+    color: '#1B3B4D'
+- elementId: icon-184
+  elementType: icon
+  bounds:
+  - 72
+  - 2241
+  - 22
+  - 22
+  iconName: fas:key
+  fill:
+    type: solid
+    color: $cyan
+- elementId: text-185
+  elementType: text
+  bounds:
+  - 106
+  - 2240
+  - 500
+  - 25
+  content:
+    text: FRESH-LEAK CONTRACT
+    fontSize: 15
+    color: $cyan
+    fontFamily: JetBrains Mono
+    bold: true
+    wrap: false
+- elementId: text-186
+  elementType: text
+  bounds:
+  - 76
+  - 2284
+  - 450
+  - 112
+  content:
+    text: 'libphp_base = dtor_leak - 0x7AE960
+
+      heap_base   = libphp_base + 0x3400000
+
+      rce_block   = heap_base + 0x5C400
+
+      zif_system  = libphp_base + 0x598650'
+    fontSize: 13.5
+    color: $text
+    fontFamily: JetBrains Mono
+    lineHeight: 1.55
+    wrap: true
+- elementId: line-187
+  elementType: line
+  bounds:
+  - 548
+  - 2282
+  - 1
+  - 112
+  viewBox:
+  - 1
+  - 1
+  points: 0,0 0,1
+  curve: sharp
+  border:
+    style: solid
+    width: 1.2
+    color: '#1B3B4D'
+- elementId: text-188
+  elementType: text
+  bounds:
+  - 580
+  - 2284
+  - 400
+  - 18
+  content:
+    text: NON-NEGOTIABLES
+    fontSize: 11
+    color: $violet
+    fontFamily: JetBrains Mono
+    bold: true
+    wrap: false
+- elementId: text-189
+  elementType: text
+  bounds:
+  - 580
+  - 2312
+  - 420
+  - 92
+  content:
+    text: '• Consume A1/B1 and RCE in one invocation
+
+      • ASLR changes bases, not image-relative offsets
+
+      • Command carrier: 48 bytes including NUL
+
+      • Proof is on the target; fetch it over HTTP'
+    fontSize: 12.5
+    color: $muted
+    fontFamily: Space Grotesk
+    lineHeight: 1.38
+    wrap: true
+- elementId: text-190
+  elementType: text
+  bounds:
+  - 76
+  - 2424
+  - 920
+  - 20
+  content:
+    text: A1/B1 = session-memory disclosure  •  Final incomplete-bucket cleanup sink = CVE-2026-109618  •  Proof decides success
+    fontSize: 10.5
+    color: $muted
+    fontFamily: JetBrains Mono
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: text-191
+  elementType: text
+  bounds:
+  - 48
+  - 2492
+  - 984
+  - 20
+  content:
+    text: EXECUTION RULE  /  NO TRUSTED FRESH LEAK → NO RCE REQUEST
+    fontSize: 11.5
+    color: $cyan
+    fontFamily: JetBrains Mono
+    bold: true
+    align:
+    - center
+    - middle
+    wrap: false
